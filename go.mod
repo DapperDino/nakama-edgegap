@@ -1,4 +1,4 @@
-module github.com/DapperDino/nakama-edgegap
+module github.com/edgegap/nakama-edgegap
 
 go 1.25.0
 

@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"database/sql"
-	"github.com/DapperDino/nakama-edgegap/pkg/fleetmanager"
+	"github.com/edgegap/nakama-edgegap/pkg/fleetmanager"
 	"github.com/heroiclabs/nakama-common/runtime"
 	"time"
 )

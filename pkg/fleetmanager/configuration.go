@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/DapperDino/nakama-edgegap/internal/helpers"
+	"github.com/edgegap/nakama-edgegap/internal/helpers"
 	"github.com/heroiclabs/nakama-common/runtime"
 	"net/http"
 	"strings"
@@ -53,7 +53,7 @@ func NewEdgegapManagerConfiguration(ctx context.Context) (*EdgegapManagerConfigu
 
 	// Get initial version (optional, used when no version exists in storage)
 	initialVersion := env["INITIAL_EDGEGAP_VERSION"]
-
+	
 	// For backward compatibility, check EDGEGAP_VERSION if INITIAL_EDGEGAP_VERSION is not set
 	if initialVersion == "" {
 		initialVersion = env["EDGEGAP_VERSION"]
