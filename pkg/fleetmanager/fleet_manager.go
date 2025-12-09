@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/edgegap/nakama-edgegap/internal/helpers"
+	"github.com/DapperDino/nakama-edgegap/internal/helpers"
 	"github.com/heroiclabs/nakama-common/runtime"
 	"sync"
 	"time"

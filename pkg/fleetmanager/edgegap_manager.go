@@ -10,14 +10,14 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/edgegap/nakama-edgegap/internal/helpers"
+	"github.com/DapperDino/nakama-edgegap/internal/helpers"
 	"github.com/heroiclabs/nakama-common/runtime"
 )
 
 const (
 	// Error messages
 	ErrorMessageNoVersionFound = "no Edgegap version found - please set version using update_edgegap_version RPC or provide INITIAL_EDGEGAP_VERSION"
-	
+
 	// Log messages
 	LogMessageUsingVersionFromStorage = "Using Edgegap version from storage: %s"
 )
